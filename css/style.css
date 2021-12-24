@@ -1,0 +1,121 @@
+html,body,.container{
+    width: 100%;
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    width:100%;
+    padding: 1em 0em;
+    background-color: rgb(176, 243, 255);    
+}
+
+.header>h1{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.flat-line{
+    margin:0;
+    padding:0;
+}
+
+.task-form{
+    width:60%;
+    margin:0 auto;
+    padding:1em 0em;
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-banner{
+    width: 40%;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.checkbox-banner>input{
+    padding: 1em 0.5em;
+    margin:0;
+}
+
+.input-btn{
+
+}
+
+.message-banner{
+    width:60%;
+    margin:0 auto;
+    padding:1em 0em;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: rgb(129, 129, 129);
+    color: rgb(129, 129, 129);
+    display: none;
+    text-align: center;
+    
+}
+
+.input-btn{
+    border-color: black;
+    border:solid 2px;
+    color: black;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+}
+
+#taskTable>table>tbody>tr>td>button{
+    border-color: black;
+    border:solid 0.5px;
+    color: black;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+}
+
+.user-message{
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.main-content-banner{
+    width:60%;
+    margin:0 auto;
+    padding:1em 0em;
+}
+
+#taskTable>table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+#taskTable>table>tbody>tr>td{
+    text-align: center;
+    padding: 0.5em 0.5em;
+    border:solid 1px black;
+    
+}
+
+#taskTable>table>tbody>tr:nth-child(odd){
+    background-color: rgb(223, 222, 222);
+}
+#taskTable>table>tbody>tr:nth-child(even){
+    background-color: rgb(182, 182, 182);
+}
+#taskTable>table>tbody>tr:nth-child(1){
+    background-color: rgb(1, 61, 110);
+    color: white;
+}
+
+#taskTable>table>tbody>tr>th{
+    text-align: center;
+    padding: 0.5em 0.5em;
+    border:solid 1px black;
+}
+
