@@ -1,0 +1,12 @@
+{
+    "page-title" : "Gestor de Tareas",
+    "table-header-1" : "Tarea",
+    "table-header-2" : "Categorías",
+    "table-header-3" : "Acciones",
+    "form-text-input" : "Nueva Tarea",
+    "form-submit-input" : "Añadir",
+    "form-element-1" : "PHP",
+    "form-element-2" : "Javascript",
+    "form-element-3" : "CSS",
+    "del" : "Eliminar Tarea"
+}
